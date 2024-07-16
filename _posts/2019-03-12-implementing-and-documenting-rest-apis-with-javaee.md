@@ -20,7 +20,9 @@ The standard way to implement REST APIs in JavaEE applications is [JAX-RS](https
 
 Check out the [cloud-native starter](https://github.com/nheidloff/cloud-native-starter) repo on GitHub. It comes with multiple microservices, two of them have been implemented with JavaEE and MicroProfile.
 
-Eclipse MicroProfile supports the [OpenAPI v3](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md) specification. The [documentation](https://github.com/eclipse/microprofile-open-api/blob/master/spec/src/main/asciidoc/microprofile-openapi-spec.adoc) lists all available annotations.
+Eclipse MicroProfile supports the [OpenAPI v3](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md) specification. The [documentation](https://github.com/eclipse/microprofile-open-api/blob/main/spec/src/main/asciidoc/microprofile-openapi-spec.asciidoc) lists all available annotations.
+
+
 
 I like using annotations directly in the code to document APIs rather than using external configuration files. The closer the documentation stays together with the actual API implementation, the better and more accurate it will be.
 
