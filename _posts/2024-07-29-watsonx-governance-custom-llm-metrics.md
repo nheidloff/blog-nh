@@ -80,4 +80,4 @@ The results are displayed in watsonx.governance. See the screenshot at the top. 
 
 ## Next Steps
 
-To learn more, check out the [Watsonx.ai](https://eu-de.dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-overview.html?context=wx&audience=wdp) documentation and the [Watsonx.ai](https://www.ibm.com/products/watsonx-ai) landing page.
+To learn more, check out the [documentation](https://www.ibm.com/docs/en/cloud-paks/cp-data/5.0.x?topic=models-evaluating-prompt-templates-non-foundation-notebooks).
