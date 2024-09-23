@@ -21,7 +21,7 @@ The [documentation](https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=m
 
 GPTQ can be used for quantization and float16 and bfloat16 as datatypes.
 
-Models weights need to be available in the safetensors format. Models in PyTorch formats can be converted.
+Model weights need to be available in the safetensors format. Models in PyTorch formats can be converted.
 
 ## Prerequisites
 

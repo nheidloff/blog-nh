@@ -52,7 +52,7 @@ The model health page displays information about number of requests, token count
 
 ![image](/assets/img/2024/08/watsonx-gov-09.png)
 
-For GenAI scenario different out-of-the-box metrics are shown.
+For GenAI scenarios different out-of-the-box metrics are shown.
 
 ![image](/assets/img/2024/08/watsonx-gov-10.png)
 

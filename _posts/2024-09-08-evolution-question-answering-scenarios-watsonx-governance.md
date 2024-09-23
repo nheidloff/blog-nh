@@ -26,7 +26,7 @@ Documentation and blog posts:
 
 ## Overview
 
-For Question Answering GPT is used running on Azure, but the same mechanism works for other models too. Question Answering is often utilized in RAG (Retrieval Augmented Generation) pipelines.
+For the Question Answering use case GPT is used running on Azure, but the same mechanism works for other models too. Question Answering is often utilized in RAG (Retrieval Augmented Generation) pipelines.
 
 ![image](/assets/img/2024/08/watsonx-gov-detached-01.png)
 
