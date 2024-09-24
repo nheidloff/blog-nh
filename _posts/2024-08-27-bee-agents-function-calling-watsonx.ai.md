@@ -161,7 +161,7 @@ The framework has great observability features. Let's look at the flow.
 
 Users can ask questions like "How is the current weather in Las Vegas?" which triggers the first LLM invocation with a prompt that defines how to handle function calling.
 
-```
+```text
 Agent 🤖 :  starting new iteration
 LLM Input
 [
@@ -231,7 +231,7 @@ LLM Input
 
 Since the LLM cannot answer the question, it returns an instruction to invoke the weather tool.
 
-```
+```text
 > Agent (thought) 🤖 :  I need to find out the current weather in Las Vegas. I have an OpenMeteo tool that can provide me with weather information for a given location.
 
 Agent (tool_name) 🤖 :  OpenMeteo
@@ -255,7 +255,7 @@ LLM Output
 
 This example leverages a built-in tool. Alternatively you can write custom tools with JavaScript or Python.
 
-```
+```text
 > Agent (tool_input) 🤖 :  {"location":{"name":"Las Vegas","language":"English"},"timezone":"","elevation":null,"start_date":null,"end_date":null,"forecast_days":7,"past_days":0,"temperature_unit":"celsius"}
 
 > Agent (tool_output) 🤖 :  {"latitude":36.16438,"longitude":-115.14392,"generationtime_ms":0.20492076873779297,"utc_offset_seconds":0,"timezone":"GMT","timezone_abbreviation":"GMT","elevation":609,"current_units":{"time":"iso8601","interval":"seconds","temperature_2m":"°C","rain":"mm","apparent_temperature":"°C"},"current":{"time":"2024-08-28T06:15","interval":900,"temperature_2m":28.3,"rain":0,"apparent_temperature":23.9},"hourly_units":{"time":"iso8601","temperature_2m":"°C","relative_humidity_2m":"%","apparent_temperature":"°C"},"
@@ -266,7 +266,7 @@ This example leverages a built-in tool. Alternatively you can write custom tools
 
 Next the LLM is invoked the second time. The original messages are passed in again plus a new message with the output of the tool.
 
-```
+```text
 Agent 🤖 :  starting new iteration
 LLM Input
 [
@@ -294,7 +294,7 @@ LLM Input
 
 Now the LLM has all relevant information and can answer the question.
 
-```
+```text
 LLM Output
 {
   generated_text: 'Thought: I have received the current weather information for Las Vegas from the OpenMeteo tool. According to the output, the current temperature is 28.3°C, and the apparent temperature is 23.9°C. There is no rain currently.\n' +

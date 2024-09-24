@@ -9,7 +9,6 @@ permalink: /article/deploying-llms-ibm-cloud/
 custom_permalink:
     - article/deploying-llms-ibm-cloud/
 image: /assets/img/2024/02/tgi.png
-pin: true
 ---
 
 *With the Text Generation Inference toolkit from Hugging Face Large Language Models can be hosted efficiently. This post describes how to run open-source models or fine-tuned models on IBM Cloud.*
