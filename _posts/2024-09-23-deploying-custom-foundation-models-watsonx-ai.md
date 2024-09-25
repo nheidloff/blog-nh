@@ -68,7 +68,7 @@ export MODEL_FOLDER=mistral7b-instructv03
 aws --endpoint-url ${ENDPOINT} s3 cp ${MODEL_DIR} s3://${BUCKET_NAME}/${MODEL_FOLDER}/ --recursive --follow-symlinks
 ```
 
-# Create Connection
+## Create Connection
 
 To enable watsonx.ai to access object storage, a connection needs to be defined. 
 
@@ -78,7 +78,7 @@ Note 2: For deploying models in projects there is a rate limit. Deploy the model
 
 Note 3: After having the model promoted to the deployment space, you need to define your personal credentials in the space again.
 
-# Creating Model Asset 
+## Create Model Asset 
 
 The following commands show how to create a model asset programmatically.
 
