@@ -144,7 +144,7 @@ The full pipeline contains five different steps:
 1. Contexts Generations
 2. Instructions Generations
 3. Instructions Evaluations
-4. Answers Geneartions
+4. Answers Generations
 5. Answers Evaluations
 
 ## 1. Contexts Generations
@@ -369,7 +369,7 @@ conversation and the ability to extract relevant information to provide a detail
 summary. [cut ... cut]
 ```
 
-## 4. Answers Geneartions
+## 4. 
 
 Input:
 
@@ -444,7 +444,7 @@ inconvenience. [cut ... cut]
 [End of Response]
 ```
 
-## 5. Answers Geneartions
+## 5. Answers Generations
 
 Input:
 
