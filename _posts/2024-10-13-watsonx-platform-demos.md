@@ -1,7 +1,7 @@
 ---
 id: nh-090
 title: 'watsonx Platform Demos'
-date: 2024-10-10 01:01:00 +0100
+date: 2024-10-13 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-090'

@@ -1,7 +1,7 @@
 ---
 id: nh-089
 title: 'Multi-turn Conversations with watsonx Orchestrate'
-date: 2024-10-09 01:01:00 +0100
+date: 2024-10-12 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-089'
