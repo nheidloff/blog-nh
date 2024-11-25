@@ -7,9 +7,7 @@
 -
   type: github
   icon: 'fab fa-github'
--
-  type: twitter
-  icon: 'fab fa-twitter'
+
 #-
 #  type: mastodon
 #  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>

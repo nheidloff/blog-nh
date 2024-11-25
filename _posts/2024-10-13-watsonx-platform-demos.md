@@ -9,6 +9,7 @@ permalink: /article/watsonx-platform-demos/
 custom_permalink:
     - article/watsonx-platform-demos/
 image: /assets/img/2024/10/watsonx-platform-demos.png
+pin: true
 ---
 
 *watsonx is IBM's AI & data platform that's built for business. It supports the complete AI lifecycle including Large Language Models, developer tools, governance and more. This post describes a new asset which explains how to leverage various watsonx capabilities together.*

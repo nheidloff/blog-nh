@@ -31,14 +31,11 @@ description: >-
 
 github:
   username: nheidloff
-twitter:
-  username: nheidloff
 social:
   name: Niklas Heidloff
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/niklasheidloff
-    - https://twitter.com/nheidloff      
+    - https://www.linkedin.com/in/niklasheidloff 
     - https://github.com/nheidloff        
 
 google_site_verification:               # fill in to your verification string
