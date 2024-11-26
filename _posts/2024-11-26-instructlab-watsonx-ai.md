@@ -1,7 +1,7 @@
 ---
 id: nh-094
 title: 'InstructLab in watsonx.ai'
-date: 2024-11-25 01:02:00 +0100
+date: 2024-11-26 01:02:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-094'
