@@ -1,7 +1,7 @@
 ---
 id: nh-095
 title: 'Improving Developer Productivity via Agents'
-date: 2024-11-26 01:04:00 +0100
+date: 2024-11-27 01:04:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-095'
@@ -37,14 +37,19 @@ The experimental feature utilizes a mixture of multiple agents. One agent identi
 
 ## Iterations
 
-To improve the quality, the agents iterate in multiple iterations: Think, plan, act and observe. In this example the second step auto-corrects the output from the first step.
+To improve the quality, the agents iterate in multiple steps: Think, plan, act and observe. In this example the second step auto-corrects the output from the first step.
 
 ![image](/assets/img/2024/11/agents-code-04.png)
+
+## Demo
+
+{% include embed/youtube.html id='xya5XABBdhM' %}
 
 ## Next Steps
 
 Check out the following resources to learn details.
 
+* [AI Agent SWE-1.0](https://research.ibm.com/blog/ibm-swe-agents)
 * Video: [Track Spotlight for AI Software](https://www.ibm.com/community/ibm-techxchange-conference/)
 * Slides: [Track Spotlight for AI Software](https://community.ibm.com/community/user/viewdocument/3658-ai-spotlight?CommunityKey=8c64553a-86a9-4af3-a2e6-55826c69b4e2&tab=librarydocuments)
 * [watsonx Code Assistant](https://www.ibm.com/products/watsonx-code-assistant)
