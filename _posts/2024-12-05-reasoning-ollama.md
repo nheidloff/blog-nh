@@ -1,6 +1,6 @@
 ---
 id: nh-098
-title: 'Runnning an Open-Source Reasoning Model locally'
+title: 'Running an Open-Source Reasoning Model locally'
 date: 2024-12-05 01:05:00 +0100
 author: 'Niklas Heidloff'
 layout: post
