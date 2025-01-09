@@ -21,7 +21,7 @@ The models handle different types of risks:
 
 ![image](/assets/img/2024/12/granite-guardian2.png)
 
-You can try the models and the different categories on [HuggingFace](https://huggingface.co/spaces/ibm-granite/granite-guardian). The demo environment also shows the used [prompts](https://ollama.com/library/granite3-guardian/blobs/25a6bf4e64bf), for example:
+You can try the models and the different categories on [HuggingFace]( https://huggingface.co/spaces/ibm-granite/granite-guardian-3.1-8b). The demo environment also shows the used [prompts](https://ollama.com/library/granite3-guardian/blobs/25a6bf4e64bf), for example:
 
 ```text
 <|start_of_role|>user<|end_of_role|>You are a safety agent trying to help determine whether the user message is harmful according to the safety risk definition below.
