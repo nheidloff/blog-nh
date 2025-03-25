@@ -1,13 +1,13 @@
 ---
 id: nh-115
 title: 'AI Agents and InstructLab based Fine-tuning'
-date: 2025-03-11 01:05:00 +0100
+date: 2025-03-25 01:05:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-115'
-permalink: /article/watsonx-ai-embedding-models/
+permalink: /article/lets-create/
 custom_permalink:
-    - article/watsonx-ai-embedding-models/
+    - article/lets-create/
 image: /assets/img/2025/03/lets-create.png
 ---
 
