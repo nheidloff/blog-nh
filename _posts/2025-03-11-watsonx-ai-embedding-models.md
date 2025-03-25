@@ -77,6 +77,8 @@ The result shows that the first two sentences about Paris are more similar than 
 This post demonstrates [Python Functions](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-deploy-py-function-write.html?context=cpdaas)
 . AI Services are more flexible but not supported yet in the software version of watsonx.ai.
 
+Update 12.02.25: AI Services are supported in [2.1.1](https://www.ibm.com/docs/en/watsonx/w-and-w/2.1.x?topic=new-watsonxai).
+
 ```python
 def deployable_function():
     """
