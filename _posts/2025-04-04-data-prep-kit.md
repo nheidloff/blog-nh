@@ -1,7 +1,7 @@
 ---
 id: nh-119
 title: 'Unstructured Data Preparation for Generative AI'
-date: 2025-04-01 01:05:00 +0100
+date: 2025-04-04 01:05:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-119'
@@ -81,7 +81,7 @@ The repo comes with several examples which demonstrate how to prepare data for f
 * [Conversion of PDF to Parquet, Document Quality Assessment, Tokenization of the Data](https://github.com/data-prep-kit/data-prep-kit/blob/dev/examples/notebooks/fine%20tuning/language/fine-tune-language.ipynb)
 * [Programming Language Selection, Code Quality Annotations, Filtering, Semantic Ordering](https://github.com/data-prep-kit/data-prep-kit/blob/dev/examples/notebooks/fine%20tuning/code/sample-notebook.ipynb)
 
-On feature I'd like to call out is the [Chunk Documents Transformer](https://data-prep-kit.github.io/data-prep-kit/transforms/language/doc_chunk/). When chunking documents the structure of documents is considered to avoid information loss.
+One feature I'd like to call out is the [Chunk Documents Transformer](https://data-prep-kit.github.io/data-prep-kit/transforms/language/doc_chunk/). When chunking documents the structure of documents is considered to avoid information loss.
 
 > When using documents converted to JSON, the transform leverages the Docling Core HierarchicalChunker to chunk according to the document layout segmentation, i.e. respecting the original document components as paragraphs, tables, enumerations, etc.
 
