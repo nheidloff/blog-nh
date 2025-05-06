@@ -1,7 +1,7 @@
 ---
 id: nh-124
 title: 'Integrating watsonx.ai Agents in watsonx Orchestrate'
-date: 2025-04-16 01:05:00 +0100
+date: 2025-05-15 01:05:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-124'
