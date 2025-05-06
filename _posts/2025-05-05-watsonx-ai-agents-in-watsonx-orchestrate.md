@@ -24,7 +24,7 @@ There are different types of agents in Orchestrate.
 **Collaborator Agents**: Agents can leverage other agents for certain tasks. In this case the agents which are invoked by other orchestrator agents are called collaborator agents which is a sub-type of 'Agents'. There can be multiple levels of hierachies.
 
 **External Agents**: Collaborator agents can run natively on Orchestrate. Additionally agents hosted externally can be invoked. External agents can be implemented with various agentic frameworks and tools.
-1. Agents with an OpenAI API endpoint '/chat/completions'
+1. Agents with [IBM watsonx Agent Connect](https://connect.watson-orchestrate.ibm.com/acf/introduction) endpoints like '/v1/chat'
 2. Agents with an watsonx.ai AI Service endpoint '/ml/v4/deployments/my-id/ai_service_stream'
 3. watsonx Assistant agents
 
