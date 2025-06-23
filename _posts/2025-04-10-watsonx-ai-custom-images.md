@@ -13,7 +13,7 @@ image: /assets/img/2025/04/watsonx-ai-custom-image-00.png
 
 *Agentic applications, model inference stacks and other Python based code can be deployed on watsonx.ai. For maximal flexibility custom images can be built and deployed to watsonx.ai which is based on OpenShift.*
 
-watsonx.ai provides 'AI Services' and 'Python Functions' to easily deploy Python based assets and to provide endpoints which can be consumed by watsonx services or custom applications. To make this as easy as possible, watsonx.ai comes with predefined software and hardware specifications. The software specifications can be customized, but the Python models are only installed at runtime. For better efficiency, dependencies can also be packaged and installed directly in images.
+watsonx.ai provides 'AI Services' and 'Python Functions' to easily deploy Python based assets and to provide endpoints which can be consumed by watsonx services or custom applications. To make this as easy as possible, watsonx.ai comes with predefined software and hardware specifications. The software specifications can be customized, but the Python modules are only installed at runtime. For better efficiency, dependencies can also be packaged and installed directly in images.
 
 Let's look at an [example](https://github.com/IBM/watsonx-ai-samples/blob/master/cpd5.1/notebooks/python_sdk/deployments/custom_image/Use%20Custom%20Image%2C%20Software%20Specification%20and%20Runtime%20Definition%20to%20deploy%20a%20python%20function.ipynb).
 

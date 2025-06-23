@@ -99,6 +99,18 @@ Add the tool to your agent and test it.
 
 ![image](/assets/img/2025/05/watsonx-orchestrate-tools-03.png)
 
+Update June 18th: My colleague [Yohan Bensoussan](https://yohanb.blog/2025/06/11/tutorial-langflow-mcp-server-watsonx-orchestrate/) described how to use a MCP proxy to connect to remote MCP servers.
+
+```bash
+orchestrate toolkits import \
+  --kind mcp \
+  --name lf-my-projects-toolkit \
+  --description "My Langflow MCP server (hosted, SSE)" \
+  --package-root . \
+  --command "uvx mcp-proxy --headers x-api-key <your-key> <your-url>" \
+  --tools "*"
+```
+
 ## Python Tools
 
 Alternatively, you can use Python to implement tools.
