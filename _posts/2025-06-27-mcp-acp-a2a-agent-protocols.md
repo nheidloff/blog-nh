@@ -33,7 +33,7 @@ Well, that's what these protocols focus on today, but these two concepts are com
 
 At the end of last year [Anthropic](https://www.anthropic.com/company) published the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/). Since then, it has been adopted by many companies. I think one of the main reasons is that it is very simple. Another reason is that Anthropic has delivered documentation and samples to enable the community to build MCP servers. Recently there was even a first MCP conference.
 
-While the simplicity is a reason for the fast adoption, more advanced functionality has not been implemented yet or is being implemented ,for example [authorization](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization). The design of the protocol shows that the original goal was to add tools to environments like Claude and IDEs and not agent to agent collaboration.
+While the simplicity is a reason for the fast adoption, more advanced functionality has not been implemented yet or is being implemented, for example [authorization](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization). The design of the protocol shows that the original goal was to add tools to environments like Claude and IDEs and not agent to agent collaboration.
 
 ## ACP
 
@@ -63,7 +63,7 @@ async with Client(base_url="http://localhost:8000") as client, client.session() 
 
 ## Asynchronous Execution
 
-With ACP agents can pause and [await](https://agentcommunicationprotocol.dev/how-to/await-external-response)  additional data. This enable long running tasks, `Human in the Loop` and elicitation.
+With ACP agents can pause and [await](https://agentcommunicationprotocol.dev/how-to/await-external-response)  additional data. This enables long running tasks, `Human in the Loop` and elicitation.
 
 ```python
 @server.agent()
