@@ -44,7 +44,7 @@ Chat with Agents without Streaming: [/chat/completions](https://developer.watson
 ```bash
 curl --request POST \
   --url http://localhost:4321/api/v1/orchestrate/845c51d3-3d16-4fdf-b00a-ade8c3dd8f6f/chat/completions \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA' \
+  --header 'Authorization: Bearer xxx' \
   --header 'Content-Type: application/json' \
   --data '{
   "stream": false,
@@ -84,7 +84,7 @@ The following command is a simple example. Check out the documentation for more 
 ```bash
 curl --request POST \
   --url http://localhost:4321/api/v1/orchestrate/6a3f4980-73f2-4e7f-b920-2b4189ba2919/chat/completions \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA' \
+  --header 'Authorization: Bearer xxx' \
   --header 'Content-Type: application/json' \
   --data '{
   "stream": true,
@@ -137,7 +137,7 @@ Chat With Orchestrate Agent without Streaming: [/orchestrate/runs](https://devel
 ```bash
 curl --request POST \
   --url http://localhost:4321/api/v1/orchestrate/runs \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA' \
+  --header 'Authorization: Bearer xxx' \
   --header 'Content-Type: application/json' \
   --data '{
   "message": {
@@ -160,7 +160,7 @@ Non-streaming requests return immediately with ids that can be used to pull for 
 ```bash
 curl --request GET \
   --url http://localhost:4321/api/v1/orchestrate/runs/c5af3b86-16c6-4ef7-984a-ca9622a6da82 \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA'
+  --header 'Authorization: Bearer xxx'
 
 {
     "id": "c5af3b86-16c6-4ef7-984a-ca9622a6da82",
@@ -229,7 +229,7 @@ Chat With Orchestrate Agent with Streaming: [/orchestrate/runs/stream](https://d
 ```bash
 curl --request POST \
   --url http://localhost:4321/api/v1/orchestrate/runs/stream \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA' \
+  --header 'Authorization: Bearer xxx' \
   --header 'Content-Type: application/json' \
   --data '{
   "message": {
@@ -364,7 +364,7 @@ Create Completion: [/completions](https://developer.watson-orchestrate.ibm.com/a
 ```bash
 curl --request POST \
   --url http://localhost:4321/api/v1/completions \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA' \
+  --header 'Authorization: Bearer xxx' \
   --header 'Content-Type: application/json' \
   --data '{
   "model": "mistralai/mistral-large",
@@ -379,7 +379,7 @@ Create Chat Completion: [/completions/chat](https://developer.watson-orchestrate
 ```bash
 curl --request POST \
   --url http://localhost:4321/api/v1/completions/chat \
-  --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYiLCJ1c2VybmFtZSI6Ind4by5hcmNoZXJAaWJtLmNvbSIsImF1ZCI6ImF1dGhlbnRpY2F0ZWQiLCJ0ZW5hbnRfaWQiOiI0YTMzZWEzMy1iMjhjLTQzMDQtYTcxZS03YWJkODkzOWY1MGIiLCJ3b1RlbmFudElkIjoiNGEzM2VhMzMtYjI4Yy00MzA0LWE3MWUtN2FiZDg5MzlmNTBiIiwid29Vc2VySWQiOiJmMjQyZWFkZi0wZGM5LTRlYWUtYjJkNy02NWIwOWI0YjRiMTYifQ.3n6n-qmi39AIdJG_yGTG8dyuwepNTVrQyPuQz88mfyA' \
+  --header 'Authorization: Bearer xxx' \
   --header 'Content-Type: application/json' \
   --data '{
   "model": "watsonx/meta-llama/llama-3-3-70b-instruct",
