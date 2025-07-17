@@ -44,7 +44,7 @@ The following example shows how the second travel agent can leverage the context
 
 It understands what 'there' means (= 'Berlin'), since the orchestrator agent passes in this information
 
-It could even leverage the information '22 degrees'. For example, if the temperature is below zero degrees it might suggest a museum, instead of 'Brandenburger Tor'.
+It could even leverage the information '22 degrees'. For example, if the temperature is below zero degrees it might suggest a museum, instead of 'Brandenburger Tor'. (By the way: I'd go there anyway.)
 
 This snippet shows the beginning of the /chat endpoint implementation where the information below is logged to see what context is provided as input. 
 
