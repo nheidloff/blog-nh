@@ -9,7 +9,6 @@ permalink: /article/instructlab/
 custom_permalink:
     - article/instructlab/
 image: /assets/img/2024/11/InstructLab.png
-pin: true
 ---
 
 *Fine-tuning of Large Language Models allows customizations of AI models for specific tasks and data. While Fine-tuning used to require a lot of compute, technologies like InstructLab, QLoRA and lama.cpp have made this process much more efficient. This post describes the evolution of Generative AI customization options with a focus on InstructLab, an innovative open-source project from IBM and Red Hat.*

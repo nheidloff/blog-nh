@@ -9,6 +9,7 @@ permalink: /article/mcp-acp-a2a-agent-protocols/
 custom_permalink:
     - article/mcp-acp-a2a-agent-protocols/
 image: /assets/img/2025/06/mcp-acp-a2a-agent-protocols-00.png
+pin: true
 ---
 
 *AI agents can work autonomously by delegating tasks to different agents, models and tools. Various protocols are evolving to standardize the communication between agents. This post describes some protocols and key capabilities.*
