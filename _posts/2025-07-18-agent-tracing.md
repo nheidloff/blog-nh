@@ -52,7 +52,7 @@ In the example the orchestrator agent is invoked first which decides to invoke t
 
 ![image](/assets/img/2025/07/agent-tracing-02.png)
 
-The collaborator weather agent has its own prompt and passed the output back to the orchestrator agent.
+The collaborator weather agent has its own prompt and passes the output back to the orchestrator agent.
 
 ![image](/assets/img/2025/07/agent-tracing-03.png)
 
