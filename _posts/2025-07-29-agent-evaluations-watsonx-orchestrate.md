@@ -153,9 +153,9 @@ There is also a summary table. Note that RAG use cases (knowledge bases) can als
 
 ![image](/assets/img/2025/07/agent-evaluations-02.png)
 
-You can also overwrite the configuration in a 'config.yml' file.
+To provide user input another agent is used that simulates users. This agent has its own prompt and generates user input based on the story from the ground truth dataset, the agent and tool definitions. You can overwrite the configuration in a 'config.yml' file.
 
-```
+```yml
 auth_config:
   tenant_name: local
   token: eyJhbxxx...
