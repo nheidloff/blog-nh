@@ -119,7 +119,7 @@ Let's look at the simple case.
 }
 ```
 
-Under the goals section it can be defined which tools must be invoked before other tools. In the following example 'get_assignment_id_hr_agent-1' needs to be run before 'get_assignment_id_hr_agent-1'.
+Under the goals section it can be defined which tools must be invoked before other tools. In the following example 'get_assignment_id_hr_agent-1' needs to be run before 'get_timeoff_schedule_hr_agent-1'.
 
 ```text
 "get_assignment_id_hr_agent-1": [
@@ -152,6 +152,31 @@ The intermediate steps of the two test cases are displayed in the terminal.
 There is also a summary table. Note that RAG use cases (knowledge bases) can also be evaluated.
 
 ![image](/assets/img/2025/07/agent-evaluations-02.png)
+
+You can also overwrite the configuration in a 'config.yml' file.
+
+```
+auth_config:
+  tenant_name: local
+  token: eyJhbxxx...
+  url: http://localhost:4321
+data_annotation_run: false
+enable_manual_user_input: false
+enable_verbose_logging: true
+llm_user_config:
+  model_id: meta-llama/llama-3-405b-instruct
+  prompt_config: /Users/niklasheidloff/Desktop/orchestrate-adk/venv/lib/python3.13/site-packages/wxo_agentic_evaluation/prompt/llama_user_prompt.jinja2
+  user_response_style: []
+num_workers: 2
+output_dir: ./debug
+provider_config:
+  model_id: meta-llama/llama-3-405b-instruct
+  provider: watsonx
+skip_available_results: false
+test_paths:
+- ./evals/ibm-watsonx-orchestrate-adk/examples/evaluations/evaluate
+wxo_lite_version: 1.8.0
+```
 
 ## Analyzing Results
 
