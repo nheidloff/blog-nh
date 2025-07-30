@@ -174,7 +174,7 @@ provider_config:
   provider: watsonx
 skip_available_results: false
 test_paths:
-- ./evals/ibm-watsonx-orchestrate-adk/examples/evaluations/evaluate
+- ./examples/evaluations/evaluate
 wxo_lite_version: 1.8.0
 ```
 
