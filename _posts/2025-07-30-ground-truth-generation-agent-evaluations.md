@@ -117,16 +117,3 @@ To find out more, check out the following resources:
 * [Watsonx Orchestrate Evaluation Framework](https://developer.watson-orchestrate.ibm.com/evaluate/overview)
 * [Developer watsonx Orchestrate](https://developer.watson-orchestrate.ibm.com)
 * [Documentation watsonx Orchestrate](https://www.ibm.com/docs/en/watsonx/watson-orchestrate)
-
-
-
-
-
-
-
-
-
-
-
-
-[]()
