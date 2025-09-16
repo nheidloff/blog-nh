@@ -81,7 +81,7 @@ async def approval_agent(input: list[Message], context: Context) -> AsyncGenerat
 
 ## Comparison
 
-My college Sandi Besen wrote a great article [Comparison of MCP, ACP, and A2A Protocols](https://medium.com/@sandibesen/an-unbiased-comparison-of-mcp-acp-and-a2a-protocols-0b45923a20f3) which compares the three protocols in more detail.
+My colleague Sandi Besen wrote a great article [Comparison of MCP, ACP, and A2A Protocols](https://medium.com/@sandibesen/an-unbiased-comparison-of-mcp-acp-and-a2a-protocols-0b45923a20f3) which compares the three protocols in more detail.
 
 ![image](/assets/img/2025/06/comparison-sandi-besen.jpeg)
 
