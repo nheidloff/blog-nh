@@ -11,7 +11,7 @@ custom_permalink:
 image: /assets/img/2025/09/ibm-watsonx-orchestrate-benefits.png
 ---
 
-*My colleagues Volker Kuhm and Leonard Brucksch and I have written a article outlining the benefits of IBM watsonx Orchestrate titled 'AI Agents for Business'.*
+*My colleagues Volker Kuhm and Leonard Brucksch and I have written an article outlining the benefits of IBM watsonx Orchestrate titled 'AI Agents for Business'.*
 
 Below is our short version. For more details read the [product page](https://www.ibm.com/products/watsonx-orchestrate) and the [Buyer’s Guide](https://www.ibm.com/downloads/documents/us-en/10a99803cbafdc57). I also published a slightly more technical article [Top five Reasons why to use watsonx Orchestrate Agents]({{ "/article/ five-reasons-why-watsonx-orchestrate/" | relative_url }}).
 
