@@ -4,7 +4,7 @@ title: 'Introducing Project Bob for AI based Software Development'
 date: 2025-10-08 01:05:00 +0100
 author: 'Niklas Heidloff'
 layout: post
-guid: 'heidloff.net/nh-14'
+guid: 'heidloff.net/nh-147'
 permalink: /article/project-bob/
 custom_permalink:
     - article/project-bob/
