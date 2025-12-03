@@ -13,7 +13,7 @@ image: /assets/img/2025/11/a2a-langgraph-watsonx-ai-00.png
 
 *The Agent2Agent (A2A) protocol is an open standard designed to enable seamless communication and collaboration between AI agents. This post explains how LangGraph agents can be extended to provide A2A interfaces so that they can be integrated in multi-agent systems.*
 
-Several protocols are emerging that define how agents can interact in multi-agent systems. The Model Context Protocol (MCP) has a big community and a lot of momentum. When it was originally released a year ago, it focused on tool invocations in agents for development environments and chat experiences. Over the last months more functionalities has been added to also support tools which can be more than synchronous REST APIs. Streaming, asychronous invocations, security, memory, etc. have been and are being added to the specification.
+Several protocols are emerging that define how agents can interact in multi-agent systems. The Model Context Protocol (MCP) has a big community and a lot of momentum. When it was originally released a year ago, it focused on tool invocations in agents for development environments and chat experiences. Over the last months more functionalities have been included to also support tools which can be more than synchronous REST APIs. Streaming, asynchronous invocations, security, memory, etc. have been and are being added to the specification.
 
 I've open sourced the code of this post in the [ibm-watsonx-ai-langgraph-langchain-a2a](https://github.com/nheidloff/ibm-watsonx-ai-langgraph-langchain-a2a) repo.
 
@@ -111,7 +111,7 @@ Successfully fetched agent card data from http://localhost:10000/.well-known/age
     }
 ```
 
-The A2A Python SDK comes with convenience functionality which makes wrapping up agents implemented in frameworks like LangGraph very easy - see [a2a_agent_executor.py](https://github.com/nheidloff/ibm-watsonx-ai-langgraph-langchain-a2a/blob/331079bd1fe6dd43b0190bfd42a8ee22389dfde7/app/a2a_agent_executor.py). The class [CurrencyAgent](https://github.com/nheidloff/ibm-watsonx-ai-langgraph-langchain-a2a/blob/331079bd1fe6dd43b0190bfd42a8ee22389dfde7/app/langgraph_agent.py#L28) is the LangGraph implmentation of the sample agent.
+The A2A Python SDK comes with convenience functionality which makes wrapping up agents implemented in frameworks like LangGraph very easy - see [a2a_agent_executor.py](https://github.com/nheidloff/ibm-watsonx-ai-langgraph-langchain-a2a/blob/331079bd1fe6dd43b0190bfd42a8ee22389dfde7/app/a2a_agent_executor.py). The class [CurrencyAgent](https://github.com/nheidloff/ibm-watsonx-ai-langgraph-langchain-a2a/blob/331079bd1fe6dd43b0190bfd42a8ee22389dfde7/app/langgraph_agent.py#L28) is the LangGraph implementation of the sample agent.
 
 ```python
 class CurrencyAgentExecutor(AgentExecutor):
