@@ -31,7 +31,7 @@ However, I think it's fair to say that their predictions were exaggerated. While
 
 [Stanford university](https://www.youtube.com/watch?v=9xoqlstC-W0) has done a survey with 600+ companies and 100k+ software engineers this year. It shows some interesting results.
 
-AI-based coding assistants works well for greenfield scenarios and low complexity, while it struggles with brownfield applications and high complexity.
+AI-based coding assistants work well for greenfield scenarios and low complexity, while they struggle with brownfield applications and high complexity.
 
 ![image](/assets/img/2025/12/vibe-coding-bob-03.jpeg)
 
