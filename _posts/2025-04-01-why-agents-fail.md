@@ -9,7 +9,6 @@ permalink: /article/why-agents-fail/
 custom_permalink:
     - article/why-agents-fail/
 image: /assets/img/2025/04/why-agents-fail-slide-00.png
-pin: true
 ---
 
 *At the ChatBot Summit in Berlin I gave a talk 'How to understand why Agents fail'. Below is a transcript and the slides.*

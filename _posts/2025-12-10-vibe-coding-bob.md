@@ -9,6 +9,7 @@ permalink: /article/vibe-coding-bob/
 custom_permalink:
     - article/vibe-coding-bob/
 image: /assets/img/2025/12/vibe-coding-bob-00.jpeg
+pin: true
 ---
 
 *In the field of AI-based development, often referred to as Vibe Coding, there is a lot of innovation and there are debates about the impact on the future of software engineering. The hype around Vibe Coding sometimes leads to disappointments because of high expectations which cannot be met due to technical limitations. However, if employed in the right way for the right tasks, AI-based tools can boost developer productivity.*

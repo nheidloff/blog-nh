@@ -9,6 +9,7 @@ permalink: /article/five-reasons-why-watsonx-orchestrate/
 custom_permalink:
     - article/five-reasons-why-watsonx-orchestrate/
 image: /assets/img/2025/07/why-watsonx-orchestrate-0.jpeg
+pin: true
 ---
 
 *Watsonx Orchestrate is IBM's platform to build and run agentic systems, from structured flows to autonomous systems. You can start simple via the Orchestrate user interfaces, but as a developer you can also get full control by writing code. In this post I describe my top five reasons why you should use watsonx Orchestrate to build and run agentic applications.*
