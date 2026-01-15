@@ -52,7 +52,7 @@ Alternatively, the scores are displayed separately under 'Scores'.
 
 Watsonx Orchestrate is IBM's platform to build and run multi-agent enterprise systems. It uses Langfuse for observability via [OpenTelemetry](https://opentelemetry.io/).
 
-As part of the watsonx Orchestrate ADK (Agent Development Kit) there is an framework to evaluate the quality of agents.
+As part of the watsonx Orchestrate ADK (Agent Development Kit) there is a framework to evaluate the quality of agents.
 
 * [Evaluating Agents in watsonx Orchestrate]({{ "/article/agent-evaluations-watsonx-orchestrate/" | relative_url }})
 * [Creating Ground Truth Datasets for Agent Evaluations]({{ "/article/ground-truth-generation-agent-evaluations/" | relative_url }})
