@@ -5,9 +5,9 @@ date: 2026-01-23 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-160'
-permalink: /article//watsonx-orchestrate-benefits/
+permalink: /article/watsonx-orchestrate-benefits/
 custom_permalink:
-    - article//watsonx-orchestrate-benefits/
+    - article/watsonx-orchestrate-benefits/
 image: /assets/img/2026/01/watsonx-orchestrate-benefits-00.jpeg
 pin: true
 ---
