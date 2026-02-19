@@ -21,7 +21,7 @@ Note: The flow below is intentionally simplified to highlight the core concepts.
 
 The [Ralph Wiggum Loop](https://ghuntley.com/ralph/) was introduced in July of last year and has gained significant traction since. Several resources (listed at the end of this article) explain the reasoning behind the pattern and the choice of the Simpsons character [Ralph Wiggum](https://en.wikipedia.org/wiki/Ralph_Wiggum) as its namesake. To get started, I recommend watching the introductory [video](https://www.youtube.com/watch?v=I7azCAgoUHc).
 
-Although the loop can run autonomously—for example, overnight—it requires two critical inputs:
+Although the loop can run autonomously, for example, overnight, it requires two critical inputs:
 
 1. A detailed specification and implementation plan
 2. Clear exit criteria that indicate when the work is complete
@@ -39,7 +39,7 @@ A complete sample implementation is available on [GitHub](https://github.com/nhe
 
 The first step is creating a Product Requirements Document (PRD). AI can assist, but humans must specify the high‑level intent: what type of application is being built and why.
 
-In IBM Bob, the Plan mode supports a structured conversation between the user and the agent.
+In IBM Bob, the 'Plan' mode supports a conversation between the user and the agent.
 
 ```text
 Create a high-quality Product Requirements Document (PRD) to build software. 
