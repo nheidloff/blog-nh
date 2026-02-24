@@ -58,10 +58,6 @@ The [IBM Application Modernization Accelerator](https://www.ibm.com/docs/en/ama)
 1. Changes that can be done rule-based
 2. Changes that need to be done via AI
 
-The following screenshot shows an issue which cannot be handled via rules.
-
-![image](/assets/img/2026/02/bob-java-application-modernization-04.jpg)
-
 ## Agentic Modernization
 
 After the rule-based changes have been done via workflows and recipes, the AI starts to work on the remaining tasks.
