@@ -106,3 +106,5 @@ To find out more, check out the following resources:
 * [IBM Application Modernization Accelerator](https://www.ibm.com/docs/en/ama)
 * [IBM Application Modernization Accelerator Developer Tools](https://www.ibm.com/docs/en/ama-dev-tools)
 * [IBM Transformation Advisor](https://www.ibm.com/products/cloud-pak-for-applications/transformation-advisor)
+* [Hands-on Modernization Lab](https://github.com/IBM/easej-app-mod-demo?tab=readme-ov-file)
+* [ModResorts Demo Application](https://github.com/IBM/sample-app-mod/)
