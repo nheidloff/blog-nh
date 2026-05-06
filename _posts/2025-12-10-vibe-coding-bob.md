@@ -1,6 +1,6 @@
 ---
 id: nh-153
-title: 'Boost Productivity with Vibe Coding and IBM Bob'
+title: 'Boost Developer Productivity with IBM Bob'
 date: 2025-12-10 01:05:00 +0100
 author: 'Niklas Heidloff'
 layout: post
@@ -12,9 +12,11 @@ image: /assets/img/2025/12/vibe-coding-bob-00.jpeg
 pin: true
 ---
 
-*In the field of AI-based development, often referred to as Vibe Coding, there is a lot of innovation and there are debates about the impact on the future of software engineering. The hype around Vibe Coding sometimes leads to disappointments because of high expectations which cannot be met due to technical limitations. However, if employed in the right way for the right tasks, AI-based tools can boost developer productivity.*
+*In the field of AI-based development, often referred to as Vibe Coding nowadays, there is a lot of innovation and there are debates about the impact on the future of software engineering. The hype around Vibe Coding sometimes leads to disappointments because of high expectations which cannot be met due to technical limitations and wrong usage patterns. However, if employed in the right way for the right tasks, AI-based tools can boost developer productivity.*
 
-The term ```Vibe Coding``` is not optimal for AI-based development tools and processes, but it's commonly used in this context. There are multiple Vibe Coding IDEs (integrated development environments) and tools available in the market. Recently, IBM [announced](https://www.ibm.com/new/announcements/ibm-project-bob) [Bob](https://www.ibm.com/products/bob), an AI-powered integration development environment, which is utilized below for sample scenarios. Full demos can be found on the [IBM Bob YouTube channel](https://www.youtube.com/@ibm-bob/videos).
+The term ```Vibe Coding``` is not optimal for AI-based development tools and processes, but it's commonly used in this context. It often implies poor quality since the developer doesn't stay in control. There are multiple Vibe Coding IDEs (integrated development environments) and tools available in the market. Recently, IBM [announced](https://www.ibm.com/new/announcements/ibm-project-bob) [Bob](https://www.ibm.com/products/bob), an AI-powered integration development environment which goes beyond Vibe Coding. 
+
+Bob is utilized below for sample scenarios. Full demos can be found on the [IBM Bob YouTube channel](https://www.youtube.com/@ibm-bob/videos).
 
 ## Introduction
 

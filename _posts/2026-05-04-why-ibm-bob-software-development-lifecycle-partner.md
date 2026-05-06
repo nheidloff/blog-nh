@@ -262,4 +262,6 @@ So, what's next?
 
 Learn by doing. Try [Bob](https://bob.ibm.com/)!
 
+For a complete end-to-end example check out the article [Spec-driven Development with IBM Bob]({{ "/article/spec-driven-development-ibm-bob/" | relative_url }}).
+
 *Special thanks to [Gabe Goodhart](https://www.linkedin.com/posts/gabe-goodhart-6676ba30_building-building-activity-7452474945621757952-aWFy) and [Rynne Whitnah](https://ibmdevday-bob-platform.bemyapp.com/#/talks/69cfff7300b6856c1e4b3dd9) for their guidance on spec-driven development.*
