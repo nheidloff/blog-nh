@@ -9,6 +9,7 @@ permalink: /article/why-ibm-bob-software-development-lifecycle-partner/
 custom_permalink:
     - article/why-ibm-bob-software-development-lifecycle-partner/
 image: /assets/img/2026/05/why-ibm-bob.png
+pin: true
 ---
 
 *The tagline 'Software Development Lifecycle Partner' is a mouthful, but it describes well the key benefits of IBM Bob. This post explores the reasoning behind this concept and why it matters for the future of software development.*
