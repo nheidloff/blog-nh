@@ -11,9 +11,9 @@ custom_permalink:
 image: /assets/img/2026/02/bob-java-application-modernization-00.jpg
 ---
 
-*Until recently, modernizations of legacy projects have often been challenging. With AI-based engineering tools it has become easier. This post describes how to convert WebSphere applications into OpenLiberty applications with newer Java runtimes via IBM Bob.*
+*Until recently, modernizations of legacy projects have often been challenging. With AI-based engineering tools it has become easier. This post describes how to convert WebSphere applications into Liberty applications with newer Java runtimes via IBM Bob.*
 
-Modernizing Java applications brings significant advantages - from ultra‑fast startup times and dramatically reduced memory consumption to enhanced developer productivity. Cloud-native frameworks like OpenLiberty make these gains even more accessible, but large‑scale modernization projects have traditionally been time‑consuming and difficult.
+Modernizing Java applications brings significant advantages - from ultra‑fast startup times and dramatically reduced memory consumption to enhanced developer productivity. Cloud-native frameworks like Liberty make these gains even more accessible, but large‑scale modernization projects have traditionally been time‑consuming and difficult.
 
 Today, new AI‑driven engineering techniques are reshaping this process which enable autonomous AI agents to generate, adapt, and refine code in iterative cycles. Developers remain fully in control by defining intent and exit criteria (such as tests), while the agents do the heavy lifting inside those boundaries.
 
