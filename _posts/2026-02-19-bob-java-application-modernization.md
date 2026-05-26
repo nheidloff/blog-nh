@@ -25,7 +25,7 @@ This post describes how [IBM Bob](https://www.ibm.com/products/bob), an AI partn
 
 Below is a sample how to modernize a WebSphere application in two steps:
 
-1. Replatforming to Liberty
+1. Replatforming to OpenLiberty
 2. Updating the Java runtime
 
 Read my previous articles about Java application modernization for more context:
@@ -41,7 +41,7 @@ Before any code is updated, it makes sense to get a better understanding about t
 
 ## Replatforming
 
-Next the WebSphere code will be updated to Liberty.
+Next the WebSphere code will be updated to [OpenLiberty](https://openliberty.io/).
 
 ![image](/assets/img/2026/02/bob-java-application-modernization-02.jpg)
 
@@ -78,7 +78,7 @@ In my case the modernized application didn't come up. Bob detected this issue wh
 
 ![image](/assets/img/2026/02/bob-java-application-modernization-08.jpg)
 
-After a couple of iterations, the application has been updated successfully to Liberty.
+After a couple of iterations, the application has been updated successfully to OpenLiberty.
 
 ![image](/assets/img/2026/02/bob-java-application-modernization-09.jpg)
 
@@ -102,6 +102,7 @@ To find out more, check out the following resources:
 * [IBM Bob Demos](https://www.youtube.com/@ibm-bob/videos)
 * [Improving operational Efficiency through Application Modernization]({{ "/article/improving-operational-efficiency-through-application-modernization/" | relative_url }})
 * [Sample Repo](https://github.com/IBM/application-modernization-javaee-quarkus?tab=readme-ov-file#documentation)
+* [OpenLiberty](https://openliberty.io/)
 * [IBM Application Modernization Accelerator](https://www.ibm.com/docs/en/ama)
 * [IBM Application Modernization Accelerator Developer Tools](https://www.ibm.com/docs/en/ama-dev-tools)
 * [IBM Transformation Advisor](https://www.ibm.com/products/cloud-pak-for-applications/transformation-advisor)
