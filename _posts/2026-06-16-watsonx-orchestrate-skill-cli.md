@@ -1,6 +1,6 @@
 ---
 id: nh-177
-title: "Accessing watsonx Orchestrate from Bob with CLI"
+title: "Accessing watsonx Orchestrate from Bob via CLI"
 date: 2026-06-15 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
