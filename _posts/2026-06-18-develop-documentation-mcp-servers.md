@@ -104,10 +104,9 @@ absolute paths or chain commands with &&. Output truncated to 30KB per call.
 
 Let's look at an example:
 
-- Bob activates and loads the skill
 - Bob installs the orchestrate CLI
-- Bob generates agent and tool code
-- Bob detects an issue in the tool
+- Bob generates agent and Python tool code
+- Bob detects an issue in a Python tool
 - Bob runs the 'search' tool
 - Bob runs the 'query_docs' tool
 
