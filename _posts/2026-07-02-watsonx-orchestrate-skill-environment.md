@@ -1,7 +1,7 @@
 ---
 id: nh-181
 title: "Accessing Orchestrate Environments via Agentic Skill"
-date: 2026-07-01 00:02:00 +0100
+date: 2026-07-02 00:02:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-181'

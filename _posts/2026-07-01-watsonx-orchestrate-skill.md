@@ -99,7 +99,7 @@ While utilizing the [watsonx Orchestrate ADK MCP Server](https://developer.watso
 # 'orchestrate' CLI reference
 
 Verified against **'ibm-watsonx-orchestrate' 2.12.0** (groups/commands confirmed live;
-original catalog from 2.10.0). The CLI evolves — **always confirm with
+original catalog from 2.12.0). The CLI evolves — **always confirm with
 'orchestrate <group> --help' and 'orchestrate <group> <cmd> --help'**. Short flags are
 shown in '()'.
 

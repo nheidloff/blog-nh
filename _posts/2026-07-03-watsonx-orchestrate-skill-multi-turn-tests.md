@@ -1,7 +1,7 @@
 ---
 id: nh-182
 title: "Testing Conversations in Orchestrate via Agentic Skill"
-date: 2026-07-01 00:03:00 +0100
+date: 2026-07-03 00:03:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-182'
