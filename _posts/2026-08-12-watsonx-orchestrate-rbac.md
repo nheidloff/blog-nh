@@ -41,7 +41,7 @@ Authorization enforcement can be applied at two distinct architectural levels:
 1. Tool Level: Directly inside individual tools during execution.
 2. Agent Level: Before tools and models are invoked, using agent pre-invoke plugins.
 
-Bob has documented three different options how to implement RBAC. With the two times two alternatives above there is also a fourth Option D which is equal to Option C, but reassures rights be invoking the /userinfo endpoint.
+Bob has documented three different options how to implement RBAC. With the two times two alternatives above there is also a fourth Option D which is equal to Option C, but reassures rights by invoking the /userinfo endpoint.
 
 | | Option A | Option B | Option C |
 |---|---|---|---|
@@ -336,6 +336,14 @@ def rbac_gate(
     return result
 ```
 
+To see the traces you can run the following command which creates a HTML report.
+
+```bash
+cd trip_booking
+./read-last-conversation.sh
+```
+
+![image](/assets/img/2026/08/watsonx-orchestrate-rbac-2.jpg)
 
 ## Next Steps
 
