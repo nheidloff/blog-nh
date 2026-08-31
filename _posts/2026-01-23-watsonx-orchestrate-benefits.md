@@ -9,7 +9,6 @@ permalink: /article/watsonx-orchestrate-benefits/
 custom_permalink:
     - article/watsonx-orchestrate-benefits/
 image: /assets/img/2026/01/watsonx-orchestrate-benefits-00.jpeg
-pin: true
 ---
 
 *There is a big difference in building agents for prototypes on desktop machines vs building and operating agents for business. Watsonx Orchestrate is IBM's platform to build and run agentic systems in enterprises. This post describes the key benefits of Orchestrate.*

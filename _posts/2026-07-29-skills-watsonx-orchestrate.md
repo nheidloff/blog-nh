@@ -9,6 +9,7 @@ permalink: /article/skills-watsonx-orchestrate/
 custom_permalink:
     - article/skills-watsonx-orchestrate/
 image: /assets/img/2026/07/skills-watsonx-orchestrate-0.jpg
+pin: true
 ---
 
 *In agentic software development frameworks like IBM Bob, skills provide essential functionality to instruct agents on how to handle domain-specific tasks. With its latest release, watsonx Orchestrate now also fully supports skills, enabling enterprise agents to operate on behalf of users seamlessly and sharing instructions between agents.*

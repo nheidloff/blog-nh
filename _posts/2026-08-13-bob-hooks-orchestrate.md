@@ -9,6 +9,7 @@ permalink: /article/bob-hooks-orchestrate/
 custom_permalink:
     - article/bob-hooks-orchestrate/
 image: /assets/img/2026/08/bob-orchestrate-hook-0.jpg
+pin: true
 ---
 
 *The agentic software development tool IBM Bob has recently introduced support for hooks. Hooks enable developers to integrate deterministic code and validation gates into workflows, significantly increasing tool reliability while reducing AI guesswork and hallucinations. This post demonstrates how to utilize hooks in Bob when building watsonx Orchestrate agents.*
