@@ -22,7 +22,7 @@ My first computer was a [Commodore 64](https://en.wikipedia.org/wiki/Commodore_6
 
 To truly test whether an autonomous agent could deliver software in a domain where I lacked deep syntactic expertise, I tasked it with building two classic C64 games in pure 6502 Assembly.
 
-Initially, I anticipated having to feed the agent extensive technical reference manuals and sample codebases. Surprisingly, modern frontier models already possess a deep grasp of 6502 architecture, memory maps, and VIC-II registers. By leveraging autonomous task loops, goals, planning modes, and computer-use capabilities to run and verify code directly inside a local [VICE](https://vice-emu.sourceforge.io/macosx.htmls) emulator, the workflow proved remarkably straightforward.
+Initially, I anticipated having to feed the agent extensive technical reference manuals and sample codebases. Surprisingly, modern frontier models already possess a deep grasp of 6502 architecture, memory maps, and VIC-II registers. By leveraging autonomous task loops, goals, planning modes, and computer-use capabilities to run and verify code directly inside a local [VICE](https://vice-emu.sourceforge.io/macosx.html) emulator, the workflow proved remarkably straightforward.
 
 ## Labyrinth
 
