@@ -9,6 +9,7 @@ permalink: /article/watsonx-orchestrate-skill/
 custom_permalink:
     - article/watsonx-orchestrate-skill/
 image: /assets/img/2026/07/watsonx-orchestrate-skill.jpg
+pin: true
 ---
 
 *Agentic software development tools like IBM Bob require customization via skills and tools to interface with external platforms like IBM watsonx Orchestrate. This post introduces a new community-built watsonx-orchestrate skill. It significantly boosts developer productivity when creating new agentic applications, extending existing frameworks, or debugging and monitoring deployed agents.*
