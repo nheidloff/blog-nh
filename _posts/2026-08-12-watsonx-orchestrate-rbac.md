@@ -58,7 +58,7 @@ Bob has documented three different options how to implement RBAC. With the two t
 
 The first option reads user roles directly from the signed JWT token passed into the request context and performs authorization checks inside the tool.
 
-Note: This tool should only be used in deterministic agentic workflows rather than fully autonomous agents. Autonomous agents cannot guarantee that the permission-checking tool will always be invoked prior to executing sensitive actions.
+Note: The following example only checks the permission. You should only run this code for debugging purposes in a separate tool. Autonomous agents cannot guarantee that the permission-checking tool will always be invoked prior to executing sensitive actions. Instead put the same check inside the sensitive tool itself.
 
 [check_booking_permission.py](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/trip_booking/tools/check_booking_permission.py):
 

@@ -9,7 +9,6 @@ permalink: /article/assembly-with-agents/
 custom_permalink:
     - article/assembly-with-agents/
 image: /assets/img/2026/08/assembly-with-agents0.png
-pin: true
 ---
 
 *An increasing share of software engineering is moving toward autonomy. Recently, I set out to explore the current frontier of coding agents, including IBM Bob, Claude Code, Codex, and Gemini, to see if I could build functional applications without writing, or even inspecting, the underlying source code.*
