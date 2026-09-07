@@ -54,6 +54,10 @@ Bob has documented three different options how to implement RBAC. With the two t
 | **Extra pip dependencies** | None | `PyJWT`, `cryptography` | None |
 | **Recommended?** | Fine-grained, zero-HTTP | Profile + roles together | ⭐ Coarse-grained gate |
 
+Update 09/07/2026: This table also shows the Option D.
+
+![image](/assets/img/2026/08/watsonx-orchestrate-rbac-3.png)
+
 ## Option A
 
 The first option reads user roles directly from the signed JWT token passed into the request context and performs authorization checks inside the tool.

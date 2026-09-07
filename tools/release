@@ -111,7 +111,7 @@ _bump_file() {
     sed -i "s/v[[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+/v$1/" "${FILES[$i]}"
   done
 
-  npx gulp
+  node scripts/build.js
 }
 
 _bump_gemspec() {
@@ -122,7 +122,7 @@ _bump_gemspec() {
 #
 #   - _sass/jekyll-theme-chirpy.scss
 #   - _javascript/copyright
-#   - assets/js/dist/*.js (will be built by gulp later)
+#   - assets/js/dist/*.js (will be built by scripts/build.js later)
 #   - jekyll-theme-chirpy.gemspec
 #
 # 2. Create a commit to save the changes.

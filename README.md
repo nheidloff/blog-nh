@@ -64,13 +64,13 @@ bash tools/run
 Run this in the second terminal:
 
 ```
-npx gulp dev
+npm run dev
 ```
 
 To generate the minimized and uglified zip files, run this command:
 
 ```
-npx gulp 
+npm run build
 ```
 
 

@@ -172,10 +172,11 @@ exclude:
   - '*.gem'
   - '*.gemspec'
   - tools
+  - scripts
   - README.md
+  - ReadNik.md
   - CHANGELOG.md
   - LICENSE
-  - gulpfile.js
   - node_modules
   - package*.json
 
