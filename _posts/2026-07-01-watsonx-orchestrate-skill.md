@@ -28,7 +28,6 @@ The new skill optimizes resource consumption by loading information only on dema
 
 - [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md)
 - references
-  - [agentops-evaluations.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/agentops-evaluations.md)
   - [agents-tools-schemas.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/agents-tools-schemas.md)
   - [cli-reference.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference.md)
   - [connections-models-kb.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/connections-models-kb.md)

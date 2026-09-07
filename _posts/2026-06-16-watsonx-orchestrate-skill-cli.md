@@ -126,10 +126,10 @@ Now let me check which agents are deployed in your Orchestrate environment:
 
 The instructions how to use the CLI are part of the [skill](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md):
 
-* [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md#orchestrate-cli)
-  * [cli-reference-deployment.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference-deployment.md)
-  * [cli-reference-testing.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference-testing.md)
-  * [cli-reference-configuration.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference-configuration.md)
+* SKILL.md
+  * cli-reference-deployment.md
+  * cli-reference-testing.md
+  * cli-reference-configuration.md
 
 I've broken down the CLI documentation in the four files above to avoid having to load everything in the context directly. SKILL.md contains references to the other three documents so that they can be loaded later.
 
@@ -176,7 +176,7 @@ orchestrate --version 2>/dev/null || pip install --upgrade
 
 ## CLI Documentation
 
-To generate the [CLI documentation](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/cli-documentation) above, I've used a simple prompt.
+To generate the CLI documentation above, I've used a simple prompt.
 
 The 'orchestrate' [CLI code](https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/src/ibm_watsonx_orchestrate/cli) is available as open-source as well as the code of the [MCP server](https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/packages/mcp-server/ibm_watsonx_orchestrate_mcp_server).
 

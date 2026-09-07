@@ -156,7 +156,7 @@ Example out of the debug tool:
 }
 ```
 
-[createJWT.js](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/webchat/server/routes/createJWT.js) generates the token in the Node.js backend.
+The snippet generates the token in the Node.js backend.
 
 ```javascript
 function createJWTString(sessionUser, accessToken, roles) {

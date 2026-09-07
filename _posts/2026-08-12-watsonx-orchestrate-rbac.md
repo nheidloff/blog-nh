@@ -60,8 +60,6 @@ The first option reads user roles directly from the signed JWT token passed into
 
 Note: The following example only checks the permission. You should only run this code for debugging purposes in a separate tool. Autonomous agents cannot guarantee that the permission-checking tool will always be invoked prior to executing sensitive actions. Instead put the same check inside the sensitive tool itself.
 
-[check_booking_permission.py](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/trip_booking/tools/check_booking_permission.py):
-
 ```python
 """
 RBAC Option A — read roles from the wxO JWT context (no HTTP call).
@@ -123,8 +121,6 @@ def check_booking_permission(context: AgentRun) -> PermissionResult:
 ## Option B
 
 This approach applies authorization at the tool level while issuing a callback to the App ID service. This guarantees that recently updated role modifications are accounted for immediately.
-
-[get_user_profile_with_roles.py](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/trip_booking/tools/get_user_profile_with_roles.py):
 
 ```python
 """
@@ -252,8 +248,6 @@ def get_user_profile_with_roles(context: AgentRun) -> UserProfile:
 ## Option C
 
 This option ensures authorization checks occur before any tools are invoked or language models are executed. This is accomplished using dedicated AGENTPREINVOKE plugins.
-
-[rbac_gate.py](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/trip_booking/tools/rbac_gate.py):
 
 ```python
 """
