@@ -17,7 +17,7 @@ Early AI-based Coding Assistants focused on creating code. Modern AI-based devel
 
 Bob can be extended with the [watsonx Orchestrate ADK MCP Server](https://developer.watson-orchestrate.ibm.com/mcp_server/wxOmcp_installation) which contains a tool to chat with Orchestrate agents programmatically. The tool's implementation invokes a [REST API](https://developer.watson-orchestrate.ibm.com/apis/orchestrate-agent/chat-with-orchestrate-assistant-as-stream).
 
-Previously, I [blogged]({{ "/article/watsonx-orchestrate-skill-cli/" | relative_url }}) about how to use an [Orchestrate skill](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/SKILL.md) that invokes the 'orchestrate' CLI directly rather than using the official watsonx Orchestrate ADK MCP Server. The first version of the skill worked well, except for one thing: it couldn't run multi-turn conversations since the orchestrate CLI 'orchestrate chat ask' doesn't support this.
+Previously, I [blogged]({{ "/article/watsonx-orchestrate-skill-cli/" | relative_url }}) about how to use an [Orchestrate skill](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md) that invokes the 'orchestrate' CLI directly rather than using the official watsonx Orchestrate ADK MCP Server. The first version of the skill worked well, except for one thing: it couldn't run multi-turn conversations since the orchestrate CLI 'orchestrate chat ask' doesn't support this.
 
 This post describes how to extend the Orchestrate skill to call REST APIs for multi-turn conversation testing.
 
@@ -217,7 +217,7 @@ Output:
 
 ## Skill
 
-The [skill](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/references/wxo-chat.sh#3-the-canonical-lifecycle) contains instructions on how to create and test agents.
+The [skill](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/wxo-chat.sh#3-the-canonical-lifecycle) contains instructions on how to create and test agents.
 
 ```text
 # The canonical Lifecycle
@@ -230,7 +230,7 @@ scaffold project → Bootstrap an isolated virtual environment + CLI
    → import agent → chat-test → debug → re-import → deploy
 ```
 
-There are additional instructions on how to run the [tests](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/SKILL.md#test).
+There are additional instructions on how to run the [tests](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md#test).
 
 ```text
 ### Verify before handover (post-deploy gate)
@@ -262,7 +262,7 @@ multi-turn.
 
 When skills are activated, only the content from SKILL.md is loaded into the context. Other markdown documents can be referenced and loaded on demand later.
 
-Skills can also contain scripts or other code. This content is usually not loaded into the context; instead, it is executed directly by the agent. To run single- and multi-turn conversations, I asked Bob to generate a [script](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/references/wxo-chat.sh) that utilizes the watsonx Orchestrate REST APIs.
+Skills can also contain scripts or other code. This content is usually not loaded into the context; instead, it is executed directly by the agent. To run single- and multi-turn conversations, I asked Bob to generate a [script](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/wxo-chat.sh) that utilizes the watsonx Orchestrate REST APIs.
 
 ```text
 #!/usr/bin/env bash

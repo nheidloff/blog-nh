@@ -26,17 +26,17 @@ For deeper technical context, you can check out my related blog posts:
 
 The new skill optimizes resource consumption by loading information only on demand. Here is a look at the file structure:
 
-- [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/SKILL.md)
+- [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md)
 - references
-  - [agentops-evaluations.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/agentops-evaluations.md)
-  - [agents-tools-schemas.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/agents-tools-schemas.md)
-  - [cli-reference.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/cli-reference.md)
-  - [connections-models-kb.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/connections-models-kb.md)
-  - [mcp-toolkits.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/mcp-toolkits.md)
-  - [runtime-api-embedding.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/runtime-api-embedding.md)
-  - [testing-debugging.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/testing-debugging.md)
-  - [setup-venv.sh](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/setup-venv.sh)
-  - [wxo-chat.sh](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/wxo-chat.sh)
+  - [agentops-evaluations.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/agentops-evaluations.md)
+  - [agents-tools-schemas.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/agents-tools-schemas.md)
+  - [cli-reference.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference.md)
+  - [connections-models-kb.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/connections-models-kb.md)
+  - [mcp-toolkits.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/mcp-toolkits.md)
+  - [runtime-api-embedding.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/runtime-api-embedding.md)
+  - [testing-debugging.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/testing-debugging.md)
+  - [setup-venv.sh](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/setup-venv.sh)
+  - [wxo-chat.sh](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/wxo-chat.sh)
 
 While the metadata in SKILL.md is permanently loaded into the context, the rest of the skill is pulled dynamically. Markdown files within the references directory load as needed, and the included shell scripts are designed for direct execution.
 

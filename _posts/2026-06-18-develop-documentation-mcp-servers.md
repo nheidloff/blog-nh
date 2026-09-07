@@ -226,7 +226,7 @@ from ibm_watsonx_orchestrate.agent_builder.tools import tool
 
 ## Code
 
-I've pushed the code to [GitHub](https://github.com/nheidloff/orchestrate-bob/tree/725aed1b46aed3765e781e188d9c90ec51b397ed/documentation-mcp-server).
+I've pushed the code to [GitHub](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/documentation-mcp-server).
 
 As a search engine, Bob suggested [LanceDB](https://github.com/lancedb/lancedb), which is lightweight and runs in the same container as the MCP server."
 

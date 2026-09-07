@@ -33,7 +33,7 @@ The skill can optionally pair with the [watsonx Orchestrate ADK MCP Server](http
 
 However, to optimize token usage, the skill typically invokes the 'orchestrate' CLI directly. Unfortunately, the CLI command 'orchestrate chat ask' runs in an interactive mode, making it incompatible with automated agent execution.
 
-Because the MCP tool utilizes the [Orchestrate REST API](https://github.com/IBM/ibm-watsonx-orchestrate-adk/blob/main/packages/mcp-server/ibm_watsonx_orchestrate_mcp_server/src/chat/mcp_tools.py) instead of the CLI, I created a wrapper script called [wxo-chat.sh](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/wxo-chat.sh) to replicate this programmatic behavior without requiring the extra overhead of an MCP server.
+Because the MCP tool utilizes the [Orchestrate REST API](https://github.com/IBM/ibm-watsonx-orchestrate-adk/blob/main/packages/mcp-server/ibm_watsonx_orchestrate_mcp_server/src/chat/mcp_tools.py) instead of the CLI, I created a wrapper script called [wxo-chat.sh](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/wxo-chat.sh) to replicate this programmatic behavior without requiring the extra overhead of an MCP server.
 
 This script is bundled directly with the skill and executes locally rather than being injected into the LLM context window.
 
@@ -114,7 +114,7 @@ print(d.get('thread_id', ''))
 
 ## Skill
 
-The accompanying [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/SKILL.md) file outlines how and when to run the script:
+The accompanying [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md) file outlines how and when to run the script:
 
 ```markdown
 **Verify before handover (post-deploy gate)**

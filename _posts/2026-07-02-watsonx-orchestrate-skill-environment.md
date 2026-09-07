@@ -36,7 +36,7 @@ While Bob can configure the CLI using only the [documentation MCP server](https:
 
 ## Script
 
-The [setup-venv.sh](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/references/setup-venv.sh) script is bundled with the skill. Instead of being loaded into the LLM context window, it executes directly. It automatically handles different Python versions, ADK releases, and operating systems.
+The [setup-venv.sh](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/setup-venv.sh) script is bundled with the skill. Instead of being loaded into the LLM context window, it executes directly. It automatically handles different Python versions, ADK releases, and operating systems.
 
 Here are the key parts of the script:
 
@@ -59,7 +59,7 @@ uv venv .venv --python "${_PYTHON_VER}"
 uv pip install --python "${_VENV_PYTHON}" ibm-watsonx-orchestrate==2.10.0
 ```
 
-The accompanying [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/1dca06eec454be8cac52efd58470284d964163fd/skills/watsonx-orchestrate/SKILL.md) file outlines how and when to run the script:
+The accompanying [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md) file outlines how and when to run the script:
 
 ```markdown
 **Critical**

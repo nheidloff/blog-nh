@@ -29,7 +29,7 @@ Usually, CLIs are updated with every new release since they are adopted heavily 
 
 ## Skill
 
-My colleague [Florin Manaila](https://de.linkedin.com/in/funmachines) created a great watsonx Orchestrate skill. The current version on GitHub is just a small [subset](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/SKILL.md) of it which I adopted to demonstrate the use case below.
+My colleague [Florin Manaila](https://de.linkedin.com/in/funmachines) created a great watsonx Orchestrate skill. The current version on GitHub is just a small [subset](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate) of it which I adopted to demonstrate the use case below.
 
 Note that this version is optimized for the local Orchestrate Developer Environment and it uses the ADK version 2.0.10 only.
 
@@ -124,12 +124,12 @@ Now let me check which agents are deployed in your Orchestrate environment:
 
 ## Instructions
 
-The instructions how to use the CLI are part of the [skill](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/SKILL.md):
+The instructions how to use the CLI are part of the [skill](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md):
 
-* [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/SKILL.md#orchestrate-cli)
-  * [cli-reference-deployment.md](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/references/cli-reference-deployment.md)
-  * [cli-reference-testing.md](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/references/cli-reference-testing.md)
-  * [cli-reference-configuration.md](https://github.com/nheidloff/orchestrate-bob/blob/8370a2b95f1d7545e537756c9e968f8706ff8f03/bob/2.10.0-official-doc-server/skills/watsonx-orchestrate/references/cli-reference-configuration.md)
+* [SKILL.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/SKILL.md#orchestrate-cli)
+  * [cli-reference-deployment.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference-deployment.md)
+  * [cli-reference-testing.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference-testing.md)
+  * [cli-reference-configuration.md](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/references/cli-reference-configuration.md)
 
 I've broken down the CLI documentation in the four files above to avoid having to load everything in the context directly. SKILL.md contains references to the other three documents so that they can be loaded later.
 
@@ -176,7 +176,7 @@ orchestrate --version 2>/dev/null || pip install --upgrade
 
 ## CLI Documentation
 
-To generate the [CLI documentation](https://github.com/nheidloff/orchestrate-bob/tree/8370a2b95f1d7545e537756c9e968f8706ff8f03/cli-documentation) above, I've used a simple prompt.
+To generate the [CLI documentation](https://github.com/nheidloff/orchestrate-bob/blob/main/skills/watsonx-orchestrate/cli-documentation) above, I've used a simple prompt.
 
 The 'orchestrate' [CLI code](https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/src/ibm_watsonx_orchestrate/cli) is available as open-source as well as the code of the [MCP server](https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/packages/mcp-server/ibm_watsonx_orchestrate_mcp_server).
 
