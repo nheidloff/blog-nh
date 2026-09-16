@@ -179,12 +179,7 @@ function createJWTString(sessionUser, accessToken, roles) {
 
 ## Setup
 
-Setting up authentication is often a little bit more challenging since several keys and links have to be defined. Below is a quick overview of the key configuration files.
-
-* [watsonx Orchestrate](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/README.md#7--create-trip_bookingenv)
-* [watsonx Orchestrate and Node.js](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/README.md#4--generate-your-rsa-key-pair)
-* [React](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/webchat/client/.env.example)
-* [Node.js](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/README.md#6--create-webchatserverenv)
+Refer to the [documentation](https://github.com/nheidloff/watsonx-orchestrate-sso-example/blob/main/README.md) for setup instructions.
 
 In this implementation, App ID is configured with two distinct identity providers:
 

@@ -41,20 +41,7 @@ Authorization enforcement can be applied at two distinct architectural levels:
 1. Tool Level: Directly inside individual tools during execution.
 2. Agent Level: Before tools and models are invoked, using agent pre-invoke plugins.
 
-Bob has documented three different options how to implement RBAC. With the two times two alternatives above there is also a fourth Option D which is equal to Option C, but reassures rights by invoking the /userinfo endpoint.
-
-| | Option A | Option B | Option C |
-|---|---|---|---|
-| **HTTP calls per turn** | **0** | 1 (`/userinfo`) | **0** |
-| **Roles source** | JWT `context.roles` | `/userinfo` response | JWT `context.roles` |
-| **Enforcement scope** | Per tool call | Per tool call | Entire agent turn |
-| **Blocks before LLM runs?** | No | No | **Yes** |
-| **Role revocation latency** | Until token expiry | Immediate | Until token expiry |
-| **IdP-agnostic?** | ✅ Yes | ⚠️ Requires `/userinfo` roles | ✅ Yes |
-| **Extra pip dependencies** | None | `PyJWT`, `cryptography` | None |
-| **Recommended?** | Fine-grained, zero-HTTP | Profile + roles together | ⭐ Coarse-grained gate |
-
-Update 09/07/2026: This table also shows the Option D.
+Bob has documented four different options how to implement RBAC. 
 
 ![image](/assets/img/2026/08/watsonx-orchestrate-rbac-3.png)
 
