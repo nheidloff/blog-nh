@@ -15,7 +15,7 @@ image: /assets/img/2026/09/orchestrate-surface-rest-api-0.png
 
 The example below uses IBM App ID as an IdP (Identity Provider), but you can change this component to any IdP that is compliant with OpenID Connect (OIDC) and OAuth 2.0.
 
-A complete [example](https://github.com/nheidloff/watsonx-orchestrate-sso-example) is available as open source. To use it, you need to configure it first, mostly importantly:
+A complete [example](https://github.com/nheidloff/watsonx-orchestrate-sso-example) is available as open source. To use it, you need to configure it first, most importantly:
 
 - watsonx Orchestrate API Key
 - watsonx Orchestrate agent ID
