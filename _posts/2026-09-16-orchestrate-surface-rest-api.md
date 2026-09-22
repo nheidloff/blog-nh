@@ -53,7 +53,7 @@ class DebugResult(BaseModel):
     wxo_run_id:     str     # unique ID for this agent run
     wxo_tenant_id:  str     # <account-id>_<instance-id>
     wxo_thread_id:  str     # conversation thread ID
-    wxo_user_name:  str     # API-key display name (REST) or developer's email (web chat)
+    wxo_user_name:  str     # API key owner's email (REST) or virtual email including sub (web chat)
 
     # ── Identity context keys
     context_email:  str     # value of context["email"]
@@ -181,7 +181,7 @@ Here is the response from the 'get_user_profile' tool when agents have been invo
 Notes:
 
 - The user ID ('sub') is available, but it must be passed in via custom code. And more importantly it is not used in the server-side traces. 
-- 'wxo_user_name' is not the username you might expect. It's en email address (maybe of the API key owner).
+- 'wxo_user_name' is not the username you might expect. It's the email address of the owner of the API key.
 - The response does not contain 'client_id'.
 - The 'userinfo_*' fields are only available when tools invoke the App ID '/userinfo' endpoint.
 
@@ -213,7 +213,7 @@ Here is the response from the 'get_user_profile' tool when agents have been invo
 
 Notes:
 
-- 'wxo_user_name' is not the username you might expect. It's a fictive email address, not a person.
+- 'wxo_user_name' is not the username you might expect. It's a fictive email address including the user's sub.
 - The response contains a 'client_id'.
 - The 'userinfo_*' fields are only available when tools invoke the App ID '/userinfo' endpoint.
 
