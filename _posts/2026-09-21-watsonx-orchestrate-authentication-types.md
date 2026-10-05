@@ -45,7 +45,7 @@ Users interacting with the native Orchestrate UI can also leverage the standard 
 * Use Case: Ideal when users reach agents via the Embedded Web Chat widget, requiring calls to downstream enterprise systems on behalf of the specific employee.
 * Scope: Supported exclusively for the Embedded Web Chat widget.
 * Reference:
-  * [https://developer.watson-orchestrate.ibm.com/tutorials/workday_sso_connections/sso-diagram-concepts](https://developer.watson-orchestrate.ibm.com/tutorials/workday_sso_connections/sso-diagram-concepts)
+  * [Configuring SSO for Workday by using OAuth On-Behalf-Of flow](https://developer.watson-orchestrate.ibm.com/tutorials/workday_sso_connections/sso-diagram-concepts)
 
 ## oauth_auth_client_credentials_flow
 
