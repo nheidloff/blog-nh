@@ -1,10 +1,10 @@
 ---
-id: nh-196
+id: nh-197
 title: "Building secure Orchestrate Agents with HashiCorp Vault"
 date: 2026-10-11 00:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
-guid: 'heidloff.net/nh-196'
+guid: 'heidloff.net/nh-197'
 permalink: /article/watsonx-orchestrate-hashicorp-vault/
 custom_permalink:
     - article/watsonx-orchestrate-hashicorp-vault/
@@ -102,7 +102,7 @@ vault list sys/leases/lookup/database/creds/readonly
 No value found at sys/leases/lookup/database/creds/readonly
 ```
 
-As an authenticated user with the trip_booker role invoker the tool search_flights_mcp_8693_vault. Immediately after the tool call, check active leases:
+As an authenticated user with the trip_booker role invokes the tool search_flights_mcp_8693_vault. Immediately after the tool call, check active leases:
 
 ```bash
 vault list sys/leases/lookup/database/creds/readonly
